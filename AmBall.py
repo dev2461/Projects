@@ -1,27 +1,3 @@
-#!/usr/bin/env python3
-"""
-CLI American Football (simplified)
-
-How to run:
-    python3 football_cli.py
-
-Controls (when prompted):
-    - On offense, choose play type:
-        1 = Run
-        2 = Short Pass
-        3 = Deep Pass
-        4 = Punt (on 4th down typically)
-        5 = Field Goal Attempt (if within range)
-    - When prompted for choices, enter the number and press Enter.
-
-Features (simplified rules):
-    - Two teams: Player vs CPU
-    - Drives, downs, yardage, turnovers, scoring (touchdowns, field goals, safeties)
-    - Game clock (15-minute quarters, accelerated; configurable)
-    - Basic CPU play selection and defense resolution using randomness + situational modifiers
-    - Saves simple play-by-play to the terminal
-Note: This is a simulation and intentionally simplified for clarity and fun.
-"""
 
 import random
 import time
